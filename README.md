@@ -5,6 +5,29 @@ A lightweight floating AI assistant that makes Pinterest search way more creativ
 It watches what you're searching and suggests fresh, smarter queries in real time.
 
 ---
+## 🔐 Privacy & Smart Memory
+
+> 🔐 Privacy-first: Stores only your last 3 searches locally — nothing leaves your browser.
+
+### 🧠 Context-Aware Suggestions
+The extension stores your **last 3 Pinterest searches** to generate more relevant and personalized suggestions.
+
+Instead of guessing blindly, it uses your recent search context to refine results and give smarter ideas.
+
+### 💾 Local Storage Only
+Your search history is stored **entirely in your browser**.
+
+- No data is sent to any external database  
+- No tracking or analytics  
+- No sharing of personal information  
+
+Everything stays on your device.
+
+### ⚖️ Minimal & Intentional
+Only the **last 3 searches** are stored — nothing more.
+
+This keeps suggestions useful without over-collecting data.
+---
 
 ## 🚀 Features
 
