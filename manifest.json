@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Pinterest AI Explorer",
+  "version": "1.0.0",
+  "description": "Floating AI assistant that suggests new Pinterest search queries based on your current search.",
+  "permissions": ["scripting", "activeTab", "storage"],
+  "host_permissions": [
+    "https://*.pinterest.com/*",
+    "https://generativelanguage.googleapis.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Pinterest AI Explorer"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.pinterest.com/*"],
+      "js": ["utils/config.js", "utils/api.js", "content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
